@@ -8,7 +8,7 @@ let l=0;
 let r=A.length-1;
 
 
-while(l<r){
+while(l<=r){
     let mid=Math.floor(((l+r)/2))
     if(A[mid]===target && (mid===0 || A[mid-1]!==A[mid])){
         //The mid value is equal to the target and either its the first element in the array or the element before it is not same.
